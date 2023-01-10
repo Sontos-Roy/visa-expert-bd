@@ -34,3 +34,12 @@
 #visa-details p:first-of-type, #about-country p:first-of-type{
     display: block;
 }
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 575px) {
+    .row2{
+        flex-direction: column-reverse;
+    }
+}
