@@ -1,0 +1,36 @@
+.small-section{
+    position: relative;
+    background: rgba(196, 126, 101, 0.37);
+}
+.triangle-box{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    background-image: url(../img/tringle-web.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    opacity: 0.5;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: contrast(2);
+}
+
+.counter-block .counter-name-wrap .counter-name{
+    color: black;
+}
+.title-section-top{
+    color: white;
+}
+.col-12{
+    width: 100%;
+}
+#visa-details p, #about-country p{
+    display: none;
+}
+
+#visa-details p:first-of-type, #about-country p:first-of-type{
+    display: block;
+}
