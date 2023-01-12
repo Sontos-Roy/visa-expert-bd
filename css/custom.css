@@ -1,12 +1,14 @@
 .small-section{
     position: relative;
-    background: rgba(196, 126, 101, 0.37);
+    background: rgb(255 145 76);
 }
+
 .triangle-box{
     position: absolute;
     height: 100%;
     top: 0;
-    background-image: url(../img/tringle-web.png);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background: #fff;
     background-size: 500px;
     background-position: center;
     width: 100%;
@@ -17,6 +19,7 @@
     -ms-filter: blur(5px);
     filter: contrast(2);
 }
+
 
 .counter-block .counter-name-wrap .counter-name{
     color: black;

@@ -578,7 +578,8 @@ h3 span {
 }
 
 .bg-main {
-    background: #ff914c;
+    background: #004aad;
+    
 }
 
 .bg-main-40:before {
@@ -713,7 +714,7 @@ h3 span {
 }
 
 .title-section-top.gray {
-    color: #424d58;
+    color: #e2eaf1;
 }
 
 .title-section {
@@ -728,7 +729,7 @@ h3 span {
 }
 
 .title-section.alt span {
-    color: #ff914c;
+    color: #121211;
 }
 
 .title-section.alt-2 {
